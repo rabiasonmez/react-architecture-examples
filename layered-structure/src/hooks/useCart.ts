@@ -1,0 +1,1 @@
+import {useState} from "react"; export function useCart(){const [cart,setCart]=useState<string[]>([]);const add=(id:string)=>setCart(prev=>[...prev,id]);return {cart,add}}

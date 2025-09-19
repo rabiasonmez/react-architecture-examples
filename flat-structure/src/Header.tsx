@@ -1,0 +1,1 @@
+import React from "react"; export default function Header(){return <header className="mb-4"><h2>Flat App</h2></header>}

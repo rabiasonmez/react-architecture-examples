@@ -1,0 +1,1 @@
+import React from "react"; export default function Button({children,...rest}:any){return <button className="px-3 py-1 bg-indigo-600 text-white rounded" {...rest}>{children}</button>}

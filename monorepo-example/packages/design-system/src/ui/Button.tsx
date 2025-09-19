@@ -1,0 +1,1 @@
+import React from "react"; export function Button({label, ...rest}:any){return <button style={{padding:8,background:'#16a34a',color:'#fff',borderRadius:6}} {...rest}>{label}</button>}

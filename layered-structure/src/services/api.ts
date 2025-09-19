@@ -1,0 +1,1 @@
+export async function fetchProducts(){return [{id:'1',name:'Elma',price:10}]}

@@ -1,0 +1,1 @@
+import React from "react"; import styles from "./Button.module.css"; export default function Button({children,...rest}:any){return <button className={styles.btn} {...rest}>{children}</button>}

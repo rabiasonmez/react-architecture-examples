@@ -1,0 +1,1 @@
+import React from "react"; export default function ProductCard({name,price,onAdd}:{name:string,price:number,onAdd:()=>void}){return <div className="border p-3 rounded">{name} - {price}₺ <button onClick={onAdd}>Sepete Ekle</button></div>}

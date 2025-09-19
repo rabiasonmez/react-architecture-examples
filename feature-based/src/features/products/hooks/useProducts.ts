@@ -1,0 +1,1 @@
+import {useEffect,useState} from "react"; export function useProducts(){const [p,setP]=useState([]);useEffect(()=>setP([{id:'1',name:'Elma',price:10}]),[]);return p}
